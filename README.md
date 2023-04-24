@@ -21,14 +21,19 @@ The dataset will be about acorn trees that appear in the USA.
 Some elements are deleted from the original dataset, this is to make sure students have different datasets.
 So different answers. Original dataset: eik_copy.csv
 
+Dataset we use: [ .Dataset ](./Dataset/eik.csv)
+Original: [ .Original ](./Dataset/eik_copy.csv)
+
 #### Questions
 1. Study and discuss the distribution of the variables Volume and Size. 
 To do this, discuss appropriate graphical representations. 
 Also, formally examine whether the data is normally distributed. If this is not the case, 
 in what way do the data deviate from normally distributed data? Discuss.
+
 2. Check if there is a correlation between "thick acorns", 
 which are oak trees with acorns with a volume of at least 3 cm<sup>3</sup>, 
 and the area in which the tree occurs. To do this, create a new variable 'thick acorn'. Then, perform an appropriate test.
+
 3. Can you predict the height from log(Volume)? 
 Answer this question thoroughly and as completely as possible.
 
