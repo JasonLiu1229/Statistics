@@ -21,7 +21,7 @@ The dataset will be about acorn trees that appear in the USA.
 Some elements are deleted from the original dataset, this is to make sure students have different datasets.
 So different answers. Original dataset: eik_copy.csv
 
-Dataset we use: [ .Dataset ](./Dataset/eik.csv)
+Dataset we use: [ .Dataset ](./Dataset/eik.csv)   
 Original: [ .Original ](./Dataset/eik_copy.csv)
 
 #### Questions
