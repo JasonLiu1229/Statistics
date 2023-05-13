@@ -12,5 +12,7 @@ boxplot(data$Grootte)
 qqnorm(data$Grootte)
 qqline(data$Grootte)
 # Question two
-
+data$dikke_eikel <- ifelse(data$Volume >= 3, 1, 0)
+mu <- mean(data$dikke_eikel)
+t.test(data$dikke_eikel, mu = mu, alternative = "two.sided")
 # Question three
