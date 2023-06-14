@@ -38,7 +38,7 @@ and the area in which the tree occurs. To do this, create a new variable 'thick 
 Answer this question thoroughly and as completely as possible.
 
 ## Report
-In the Assignment folder you will also find the report in dutch.
+In the Assignment folder you will also find the report in english.
 
 ## Author
 Jason Liu - Jason.Liu@student.uantwerpen.be   
