@@ -31,3 +31,19 @@ plot(data$log_volume, data$Hoogte,
 model <- lm(Hoogte ~ log_volume, data = data)
 
 abline(model, col = "red")
+
+correlation <- cor(data$log_volume, data$Hoogte)
+print(correlation)
+
+library(caret)
+set.seed(123)  # For reproducibility
+trainIndex <- createDataPartition(data$log_volume, p = 0.7, list = FALSE)
+trainData <- data[trainIndex, ]
+testData <- data[-trainIndex, ]
+
+model <- lm(Hoogte ~ log_volume, data = trainData)
+
+predictions <- predict(model, newdata = testData)
+rmse <- sqrt(mean((testData$Hoogte - predictions)^2))
+coefficients <- coef(model)
+print(coefficients)
